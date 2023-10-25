@@ -1,0 +1,104 @@
+body {
+    background-color: lightcyan;
+  }
+
+  @media(min-width:400px){
+    .container-1{
+      display:flex;
+      justify-content:center;
+    }
+    
+    .container-2{
+      display:flex;  
+      justify-content:center;
+    }
+    .container-3{
+      display:flex;  
+      justify-content: center;
+    }
+  }
+  .container-1 div, .container-2 div, .container-3 div{
+    border:1px #ccc solid;
+    padding:10px;
+  }
+  
+  .box-1{
+    flex:2;
+    order:1;
+  }
+  
+  .box-2{
+    flex:1;
+    order:2;
+  }
+  
+  .box-3{
+    flex:1;
+    order: 3;
+  }
+  
+  
+  h1 {
+    color: darkblue;
+    font-family: verdana;
+    font-size: 28px;
+
+      text-align: center;
+      text-shadow: 2px 2px #ff0000;
+    
+  }
+
+  h2 {
+    color: darkblue;
+    font-family: verdana;
+    font-size: 22px;
+
+      text-align: center;
+      text-shadow: 2px 2px #ff0000;
+      
+  }
+
+  h3 {
+    color: darkblue;
+    font-family: verdana;
+    font-size: 18px;
+
+      text-align: center;
+      text-shadow: 2px 2px #ff0000;
+      
+  }
+
+  ul {
+    color: darkblue;
+    font-family: verdana;
+    font-size: 18px;
+
+      text-align: center;
+      
+  }
+  
+  p {
+    color: darkgreen;
+    font-family: verdana;
+    font-size: 18px;
+
+      text-align: center;
+      
+  }
+
+  img {
+    border-radius: 50%;
+    float: left;
+    width: 12%
+    margin-right: 30px;
+  }
+
+  contactdetails {
+
+  }
+
+  navbar {
+    float: left;
+    
+  }
+  ]
