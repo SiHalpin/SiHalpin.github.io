@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="styles/mystyle.css">
+</head>
+
+<title>Lab1</title>
+
+<body>
+  <a name="TopOfPage"></a>
+<h1>Sin&eacutead Halpin</h1>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <a href="coverletter/coverletter.html"> Cover Letter </a>
+    </div>
+    <div class="col-sm">
+      <a href="ese/ese.html"> Experience, Skills and Education </a>
+    </div>
+    <div class="col-sm">
+      <a href="socialmedia/socialmedia.html"> My Social Media </a>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="header">
+  <div class="img"></div>
+  <div id="header1"><img src="images/shalpin.jpeg" alt="SiHalpinPic"></div>
+  </div>
+  </div>
+
+<h3><a href="mailto:myemail@email.com">myemail@email.com</a></h3>
+
+<h3>085 0000 0000</h3>
+
+<h3><p>House Number</p>
+<p>Street Address</p>
+<p>City</p></h3>
+
+
+<h2>Education</h2>
+
+<ul>
+  <div class="container-sm">
+    <div class="box-1">
+    <li>College Second Degree 2021</li>
+    <div style="white-space: pre">
+      This is the details of my Degree.
+      The awarding body was University College Cork
+      This was completed by 2021
+      </div></div></div>
+      <div class="container-sm">
+        <div class="box-2">
+    <li>College First Degree 2005</li>
+    <div style="white-space: pre">
+      This is the details of my first Degree.
+      The awarding body was Cork Institute of Technology
+      This was completed by 2005
+      </div></div></div>
+      <div class="container-sm">
+        <div class="box-3">
+    <li>Secondary School 1996 - 2002</li>
+    <div style="white-space: pre">
+      This is the details of my Secondary School.
+      The awarding body was a Cork school
+      This was completed by 2002
+      </div></div></div>
+  </ul>
+
+<h2>Experience</h2>
+
+<ul>
+    <li><span style="font-weight:bold";>Current</span> Job 2023</li>
+    <div style="white-space: pre">
+      This is the details of my Current Job
+      This was located in Cork
+      My responsibilities are listed here
+      </div>
+    <li>Last Job 2021</li>
+    <div style="white-space: pre">
+      This is the details of my Last Job
+      This was located in Cork
+      My responsibilities are listed here
+      </div>
+    <li>Earlier Job 2019</li>
+    <div style="white-space: pre">
+      This is the details of my Earlier Job
+      This was located in Cork
+      My responsibilities are listed here
+      </div>
+  </ul>
+
+<h2>Skills</h2>
+
+<ul style="list-style-type:square;">
+    <li><span style="font-weight:bold";>First</span> Skill</li>
+    <li>Second Skill</li>
+    <li>Third Skill</li>
+  </ul>
+
+
+  <head>
+    <title>Personal Statement</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <h2 class="text-success text-center">Personal Statement</h2>
+      <h5 class="text-primary text-center">Why you should read my CV</h5>
+      <p>This is my personal statement that contains information on my background, why I studied specific areas, how well my skills can be applied to specific challenges. This is very relevant to my applications and it's important to give context.</p>
+    </div>
+
+
+  <h3><a href="https://www.instagram.com/SiHalpin">My Instagram</a></h3>
+
+<p>Thank you for reading my CV.</p>
+
+
+
+<p>Click <a href="#TopOfPage">here</a> to go to the Top of the page.
+</p>
+</body>
+</html>
