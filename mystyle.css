@@ -112,4 +112,10 @@ button {
     margin-top: 10px;
     cursor: pointer;
 }
+
+
+songContainer {
+    margin-top: 20px;
+    white-space: pre-wrap;
+}
   ]
