@@ -1,3 +1,20 @@
+function generateSong() {
+    var songContainer = document.getElementById("songContainer");
+    songContainer.innerText = "";
+
+    for (var i = 99; i >= 1; i--) {
+        var currentBottles = i;
+        var nextBottles = i - 1;
+        var verse = currentBottles + " bottles of beer on the wall, " + currentBottles + " bottles of beer.\n";
+        verse += "Take one down, pass it around, " + nextBottles + " bottles of beer on the wall.\n\n";
+        songContainer.innerText += verse;
+    }
+
+    songContainer.innerText += "No more bottles of beer on the wall, no more bottles of beer.\n"
+    songContainer.innerText += "Go to the store and buy some more, 99 bottles of beer on the wall.";
+}
+
+
 function enterResults() {
     var subjectCount = document.getElementById("subjectCount").value;
     var results = [];
@@ -26,13 +43,13 @@ function enterResults() {
 }
 
 function calculateGrade(result) {
-    if (result >= 90) {
+    if (result >= 85) {
         return "A";
-    } else if (result >= 80) {
-        return "B";
     } else if (result >= 70) {
+        return "B";
+    } else if (result >= 55) {
         return "C";
-    } else if (result >= 60) {
+    } else if (result >= 40) {
         return "D";
     } else {
         return "F";
